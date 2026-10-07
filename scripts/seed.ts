@@ -144,18 +144,18 @@ const P: Def[] = [
   { slug: "converse-chuck-70-hi-split", name: "Chuck 70 Hi 'Split Colour'", brand: "Converse", cat: "sneakers", g: "unisex", price: 6499, img: ["1617606002806-94e279c22567", "1607522370275-f14206abe5d3"], colors: [["Red / Black", "#c1121f"]], flags: ["new", "featured"], video: 1368, line: "Premium 12oz canvas, vintage egret midsole and a split red-and-black upper." },
   { slug: "adidas-forum-low-royal", name: "Forum Low Royal", brand: "Adidas", cat: "sneakers", g: "men", price: 9999, img: ["1620794341491-76be6eeb6946"], detail: true, colors: [["Cloud / Royal", "#1d3fbb"]], line: "The '84 hoops classic with its X-strap, now a street essential." },
   { slug: "adidas-eqt-support-grey", name: "EQT Support Grey Knit", brand: "Adidas", cat: "sneakers", g: "men", price: 8499, was: 10999, img: ["1518002171953-a080ee817e1f"], detail: true, colors: [["Grey Two", "#9a9a9a"]], line: "Engineered knit, supportive cage and a boost of everyday bounce." },
-  { slug: "metro-chunk-runner", name: "Metro Chunk Runner", brand: "Soles Studio", cat: "sneakers", g: "unisex", price: 6999, img: ["1595341888016-a392ef81b7de", "1560769629-975ec94e6a86"], colors: [["Teal Tangerine", "#1e7f8c"], ["Stone", "#d8d2c4"]], flags: ["new", "featured"], line: "Our in-house chunky runner — stacked foam, layered mesh and a city-bred attitude." },
-  { slug: "cloud-minimal-leather", name: "Cloud Minimal Leather", brand: "Soles Studio", cat: "sneakers", g: "unisex", price: 4999, img: ["1603808033192-082d6919d3e1", "1622760807800-66cf1466fc08"], colors: [["Cloud", "#f3efe7"], ["Sand", "#c9b79c"]], flags: ["best"], line: "Italian-inspired minimalism: buttery leather, tonal stitching, zero noise." },
-  { slug: "star-court-low", name: "Star Court Low", brand: "Soles Studio", cat: "sneakers", g: "women", price: 3999, was: 4999, img: ["1587563871167-1ee9c731aefb"], detail: true, colors: [["White / Silver", "#ececec"]], line: "A tennis-inspired low-top with a metallic star on the heel tab." },
-  { slug: "midnight-leather-low", name: "Midnight Leather Low", brand: "Soles Studio", cat: "sneakers", g: "men", price: 5499, img: ["1604163546180-039a1781c0d2"], detail: true, colors: [["Midnight", "#1b1b1f"]], line: "Polished black leather, a sleek cupsole and just enough edge." },
+  { slug: "metro-chunk-runner", name: "Metro Chunk Runner", brand: "Waquar Studio", cat: "sneakers", g: "unisex", price: 6999, img: ["1595341888016-a392ef81b7de", "1560769629-975ec94e6a86"], colors: [["Teal Tangerine", "#1e7f8c"], ["Stone", "#d8d2c4"]], flags: ["new", "featured"], line: "Our in-house chunky runner — stacked foam, layered mesh and a city-bred attitude." },
+  { slug: "cloud-minimal-leather", name: "Cloud Minimal Leather", brand: "Waquar Studio", cat: "sneakers", g: "unisex", price: 4999, img: ["1603808033192-082d6919d3e1", "1622760807800-66cf1466fc08"], colors: [["Cloud", "#f3efe7"], ["Sand", "#c9b79c"]], flags: ["best"], line: "Italian-inspired minimalism: buttery leather, tonal stitching, zero noise." },
+  { slug: "star-court-low", name: "Star Court Low", brand: "Waquar Studio", cat: "sneakers", g: "women", price: 3999, was: 4999, img: ["1587563871167-1ee9c731aefb"], detail: true, colors: [["White / Silver", "#ececec"]], line: "A tennis-inspired low-top with a metallic star on the heel tab." },
+  { slug: "midnight-leather-low", name: "Midnight Leather Low", brand: "Waquar Studio", cat: "sneakers", g: "men", price: 5499, img: ["1604163546180-039a1781c0d2"], detail: true, colors: [["Midnight", "#1b1b1f"]], line: "Polished black leather, a sleek cupsole and just enough edge." },
   // Running
   { slug: "free-rn-flyknit-crimson", name: "Free RN Flyknit Crimson", brand: "Nike", cat: "running", g: "men", price: 9695, img: ["1542291026-7eec264c27ff"], detail: true, colors: [["Crimson", "#c1121f"]], flags: ["featured", "best"], video: 32812, line: "A sock-like Flyknit upper and flex-grooved sole that moves exactly like your foot." },
   { slug: "free-rn-5-olive", name: "Free RN 5.0 Olive", brand: "Nike", cat: "running", g: "men", price: 8495, img: ["1582588678413-dbf45f4823e9"], detail: true, colors: [["Olive Flak", "#556b2f"]], line: "Barefoot-inspired freedom with a lightweight knit and heel pull tab." },
-  { slug: "phantom-glide-runner", name: "Phantom Glide Runner", brand: "Soles Studio", cat: "running", g: "unisex", price: 6499, img: ["1491553895911-0055eca6402d"], detail: true, colors: [["Phantom Black", "#141414"]], video: 47879, line: "Responsive foam, a rocker geometry and a stealth upper for tempo days." },
-  { slug: "aeroknit-grey", name: "AeroKnit Grey", brand: "Soles Studio", cat: "running", g: "unisex", price: 5999, img: ["1562183241-b937e95585b6"], detail: true, colors: [["Heather Grey", "#8e8e8e"]], flags: ["new"], line: "Featherweight knit and a cloud-soft midsole that makes 10K feel like 5." },
-  { slug: "prism-knit-runner", name: "Prism Knit Runner", brand: "Soles Studio", cat: "running", g: "women", price: 7299, img: ["1604671801908-6f0c6a092c05"], detail: true, colors: [["Prism", "#6a5acd"]], flags: ["new", "featured"], video: 40765, line: "Iridescent knit that shifts from teal to violet with every stride." },
+  { slug: "phantom-glide-runner", name: "Phantom Glide Runner", brand: "Waquar Studio", cat: "running", g: "unisex", price: 6499, img: ["1491553895911-0055eca6402d"], detail: true, colors: [["Phantom Black", "#141414"]], video: 47879, line: "Responsive foam, a rocker geometry and a stealth upper for tempo days." },
+  { slug: "aeroknit-grey", name: "AeroKnit Grey", brand: "Waquar Studio", cat: "running", g: "unisex", price: 5999, img: ["1562183241-b937e95585b6"], detail: true, colors: [["Heather Grey", "#8e8e8e"]], flags: ["new"], line: "Featherweight knit and a cloud-soft midsole that makes 10K feel like 5." },
+  { slug: "prism-knit-runner", name: "Prism Knit Runner", brand: "Waquar Studio", cat: "running", g: "women", price: 7299, img: ["1604671801908-6f0c6a092c05"], detail: true, colors: [["Prism", "#6a5acd"]], flags: ["new", "featured"], video: 40765, line: "Iridescent knit that shifts from teal to violet with every stride." },
   { slug: "air-max-suede-mocha", name: "Air Max Suede Mocha", brand: "Nike", cat: "running", g: "men", price: 8995, was: 10495, img: ["1576672843344-f01907a9d40c"], detail: true, colors: [["Mocha", "#4a3b2a"]], line: "Retro running lines in rich mocha suede with a heel Air unit." },
-  { slug: "hydro-trail-white", name: "Hydro Trail White", brand: "Soles Studio", cat: "running", g: "unisex", price: 6799, img: ["1465479423260-c4afc24172c6"], detail: true, colors: [["White", "#f5f5f5"]], line: "Water-repellent mesh and a lugged outsole for rain-soaked monsoon miles." },
+  { slug: "hydro-trail-white", name: "Hydro Trail White", brand: "Waquar Studio", cat: "running", g: "unisex", price: 6799, img: ["1465479423260-c4afc24172c6"], detail: true, colors: [["White", "#f5f5f5"]], line: "Water-repellent mesh and a lugged outsole for rain-soaked monsoon miles." },
   // Basketball
   { slug: "air-jordan-12-retro-gym-red", name: "Air Jordan 12 Retro 'Gym Red'", brand: "Jordan", cat: "basketball", g: "men", price: 17995, img: ["1575537302964-96cd47c06b1b"], detail: true, colors: [["Gym Red", "#b3001b"]], flags: ["featured"], line: "Rising-sun stitching, full-length Zoom Air and a carbon shank. Pure hardwood heritage." },
   { slug: "kyrie-7-black-ice", name: "Kyrie 7 'Black Ice'", brand: "Nike", cat: "basketball", g: "men", price: 11995, was: 13995, img: ["1605348532760-6753d2c43329"], detail: true, colors: [["Black Ice", "#0d0d0d"]], video: 746, line: "Low-to-the-ground Air Zoom Turbo and a traction pattern tuned for shifty handles." },
@@ -164,24 +164,24 @@ const P: Def[] = [
   { slug: "legend-essential-3-pink", name: "Legend Essential 3 Pink", brand: "Nike", cat: "training", g: "women", price: 5695, img: ["1605408499391-6368c628ef42"], detail: true, colors: [["Black / Pink", "#1a1a1a"]], line: "A flat, stable platform for lifts with rubber wraps for agility work." },
   { slug: "aerocharge-futsal-blue", name: "Aerocharge Futsal Blue", brand: "Hummel", cat: "training", g: "men", price: 6999, img: ["1609250291996-fdebe6020a8f"], detail: true, colors: [["Blue / Volt", "#1e3a8a"]], line: "Indoor court grip and a snug synthetic upper made for five-a-side." },
   // Boots
-  { slug: "heritage-lace-up-boot", name: "Heritage Lace-Up Boot", brand: "Soles Studio", cat: "boots", g: "men", price: 8999, img: ["1520639888713-7851133b1ed0"], detail: true, colors: [["Tobacco", "#8b5a2b"]], flags: ["best"], line: "Oil-tanned leather, Goodyear-style welt and speed hooks that lace in seconds." },
-  { slug: "wingtip-brogue-boot-tan", name: "Wingtip Brogue Boot Tan", brand: "Soles Studio", cat: "boots", g: "men", price: 11499, img: ["1638609348722-aa2a3a67db26"], detail: true, colors: [["Tan", "#a0612c"]], flags: ["featured"], line: "Country brogue detailing on a hand-burnished tan boot with a commando sole." },
-  { slug: "trailworker-boot", name: "Trailworker Boot", brand: "Soles Studio", cat: "boots", g: "men", price: 7499, was: 8999, img: ["1605812860427-4024433a70fd"], detail: true, colors: [["Wheat Nubuck", "#b88746"]], video: 2753, line: "Padded collar, waterproof nubuck and a lug sole for trails and job sites." },
-  { slug: "nude-stiletto-bootie", name: "Nude Stiletto Bootie", brand: "Soles Studio", cat: "boots", g: "women", price: 6999, img: ["1621996659490-3275b4d0d951"], detail: true, colors: [["Nude", "#e3c1a8"]], line: "A pointed-toe ankle bootie on a slim stiletto with a side zip." },
+  { slug: "heritage-lace-up-boot", name: "Heritage Lace-Up Boot", brand: "Waquar Studio", cat: "boots", g: "men", price: 8999, img: ["1520639888713-7851133b1ed0"], detail: true, colors: [["Tobacco", "#8b5a2b"]], flags: ["best"], line: "Oil-tanned leather, Goodyear-style welt and speed hooks that lace in seconds." },
+  { slug: "wingtip-brogue-boot-tan", name: "Wingtip Brogue Boot Tan", brand: "Waquar Studio", cat: "boots", g: "men", price: 11499, img: ["1638609348722-aa2a3a67db26"], detail: true, colors: [["Tan", "#a0612c"]], flags: ["featured"], line: "Country brogue detailing on a hand-burnished tan boot with a commando sole." },
+  { slug: "trailworker-boot", name: "Trailworker Boot", brand: "Waquar Studio", cat: "boots", g: "men", price: 7499, was: 8999, img: ["1605812860427-4024433a70fd"], detail: true, colors: [["Wheat Nubuck", "#b88746"]], video: 2753, line: "Padded collar, waterproof nubuck and a lug sole for trails and job sites." },
+  { slug: "nude-stiletto-bootie", name: "Nude Stiletto Bootie", brand: "Waquar Studio", cat: "boots", g: "women", price: 6999, img: ["1621996659490-3275b4d0d951"], detail: true, colors: [["Nude", "#e3c1a8"]], line: "A pointed-toe ankle bootie on a slim stiletto with a side zip." },
   // Formal
-  { slug: "cognac-derby", name: "Cognac Derby", brand: "Soles Studio", cat: "formal", g: "men", price: 6499, img: ["1449505278894-297fdb3edbc1", "1614252235316-8c857d38b5f4"], colors: [["Cognac", "#9a4a1c"]], flags: ["best"], line: "Hand-finished cognac leather with an open-lace derby build for all-day comfort." },
-  { slug: "double-monk-walnut", name: "Double Monk Walnut", brand: "Soles Studio", cat: "formal", g: "men", price: 7999, img: ["1533867617858-e7b97e060509"], detail: true, colors: [["Walnut", "#5d3a1a"]], line: "Twin buckles, a chiselled toe and walnut-burnished calf leather." },
-  { slug: "teal-suede-brogue", name: "Teal Suede Brogue", brand: "Soles Studio", cat: "formal", g: "men", price: 7499, img: ["1560343090-f0409e92791a"], detail: true, colors: [["Teal", "#2a8c82"]], flags: ["new"], line: "A statement brogue in teal suede — for grooms, guests and anyone who dares." },
-  { slug: "horsebit-loafer-tan", name: "Horsebit Loafer Tan", brand: "Soles Studio", cat: "formal", g: "men", price: 6999, img: ["1616406432452-07bc5938759d"], detail: true, colors: [["Tan", "#9c5b2e"]], video: 35811, line: "Slip-on elegance with polished gold hardware and a leather sole." },
+  { slug: "cognac-derby", name: "Cognac Derby", brand: "Waquar Studio", cat: "formal", g: "men", price: 6499, img: ["1449505278894-297fdb3edbc1", "1614252235316-8c857d38b5f4"], colors: [["Cognac", "#9a4a1c"]], flags: ["best"], line: "Hand-finished cognac leather with an open-lace derby build for all-day comfort." },
+  { slug: "double-monk-walnut", name: "Double Monk Walnut", brand: "Waquar Studio", cat: "formal", g: "men", price: 7999, img: ["1533867617858-e7b97e060509"], detail: true, colors: [["Walnut", "#5d3a1a"]], line: "Twin buckles, a chiselled toe and walnut-burnished calf leather." },
+  { slug: "teal-suede-brogue", name: "Teal Suede Brogue", brand: "Waquar Studio", cat: "formal", g: "men", price: 7499, img: ["1560343090-f0409e92791a"], detail: true, colors: [["Teal", "#2a8c82"]], flags: ["new"], line: "A statement brogue in teal suede — for grooms, guests and anyone who dares." },
+  { slug: "horsebit-loafer-tan", name: "Horsebit Loafer Tan", brand: "Waquar Studio", cat: "formal", g: "men", price: 6999, img: ["1616406432452-07bc5938759d"], detail: true, colors: [["Tan", "#9c5b2e"]], video: 35811, line: "Slip-on elegance with polished gold hardware and a leather sole." },
   // Heels
-  { slug: "botanica-floral-pump", name: "Botanica Floral Pump", brand: "Soles Studio", cat: "heels", g: "women", price: 4999, img: ["1543163521-1bf539c55dd2"], detail: true, colors: [["Botanica", "#3b82c4"]], flags: ["featured"], line: "A jacquard floral print on a 100mm stiletto — garden party, sorted." },
-  { slug: "navy-suede-pump", name: "Navy Suede Pump", brand: "Soles Studio", cat: "heels", g: "women", price: 4499, img: ["1515347619252-60a4bf4fff4f"], detail: true, colors: [["Navy", "#1f2a44"]], line: "Classic almond-toe pump in velvety navy suede on an 85mm heel." },
-  { slug: "noir-pointed-stiletto", name: "Noir Pointed Stiletto", brand: "Soles Studio", cat: "heels", g: "women", price: 5299, img: ["1596703263926-eb0762ee17e4", "1554062614-6da4fa67725a"], colors: [["Noir", "#0b0b0b"]], flags: ["best"], video: 35987, line: "The little black dress of shoes: patent leather, pointed toe, 105mm." },
-  { slug: "nude-classic-pump", name: "Nude Classic Pump", brand: "Soles Studio", cat: "heels", g: "women", price: 4299, was: 5299, img: ["1535043934128-cf0b28d52f95"], detail: true, colors: [["Nude", "#e8cdb5"]], line: "Leg-lengthening nude leather with a cushioned footbed." },
-  { slug: "scarlet-strappy-heel", name: "Scarlet Strappy Heel", brand: "Soles Studio", cat: "heels", g: "women", price: 4799, img: ["1613987876445-fcb353cd8e27"], detail: true, colors: [["Scarlet", "#d00000"]], flags: ["new"], video: 15999, line: "Barely-there straps in lipstick red on a slim 95mm heel." },
+  { slug: "botanica-floral-pump", name: "Botanica Floral Pump", brand: "Waquar Studio", cat: "heels", g: "women", price: 4999, img: ["1543163521-1bf539c55dd2"], detail: true, colors: [["Botanica", "#3b82c4"]], flags: ["featured"], line: "A jacquard floral print on a 100mm stiletto — garden party, sorted." },
+  { slug: "navy-suede-pump", name: "Navy Suede Pump", brand: "Waquar Studio", cat: "heels", g: "women", price: 4499, img: ["1515347619252-60a4bf4fff4f"], detail: true, colors: [["Navy", "#1f2a44"]], line: "Classic almond-toe pump in velvety navy suede on an 85mm heel." },
+  { slug: "noir-pointed-stiletto", name: "Noir Pointed Stiletto", brand: "Waquar Studio", cat: "heels", g: "women", price: 5299, img: ["1596703263926-eb0762ee17e4", "1554062614-6da4fa67725a"], colors: [["Noir", "#0b0b0b"]], flags: ["best"], video: 35987, line: "The little black dress of shoes: patent leather, pointed toe, 105mm." },
+  { slug: "nude-classic-pump", name: "Nude Classic Pump", brand: "Waquar Studio", cat: "heels", g: "women", price: 4299, was: 5299, img: ["1535043934128-cf0b28d52f95"], detail: true, colors: [["Nude", "#e8cdb5"]], line: "Leg-lengthening nude leather with a cushioned footbed." },
+  { slug: "scarlet-strappy-heel", name: "Scarlet Strappy Heel", brand: "Waquar Studio", cat: "heels", g: "women", price: 4799, img: ["1613987876445-fcb353cd8e27"], detail: true, colors: [["Scarlet", "#d00000"]], flags: ["new"], video: 15999, line: "Barely-there straps in lipstick red on a slim 95mm heel." },
   // Sandals & flats
-  { slug: "cork-two-strap-sandal", name: "Cork Two-Strap Sandal", brand: "Soles Studio", cat: "sandals-flats", g: "unisex", price: 3499, img: ["1603487742131-4160ec999306"], detail: true, colors: [["Stone", "#cfc6b8"]], flags: ["best"], line: "Contoured cork footbed and adjustable suede straps — summer on repeat." },
-  { slug: "blush-quilted-flat", name: "Blush Quilted Flat", brand: "Soles Studio", cat: "sandals-flats", g: "women", price: 3999, img: ["1604001307862-2d953b875079"], detail: true, colors: [["Blush", "#f1c9c1"]], line: "Quilted leather ballet flat with a cap toe and bendable sole." },
+  { slug: "cork-two-strap-sandal", name: "Cork Two-Strap Sandal", brand: "Waquar Studio", cat: "sandals-flats", g: "unisex", price: 3499, img: ["1603487742131-4160ec999306"], detail: true, colors: [["Stone", "#cfc6b8"]], flags: ["best"], line: "Contoured cork footbed and adjustable suede straps — summer on repeat." },
+  { slug: "blush-quilted-flat", name: "Blush Quilted Flat", brand: "Waquar Studio", cat: "sandals-flats", g: "women", price: 3999, img: ["1604001307862-2d953b875079"], detail: true, colors: [["Blush", "#f1c9c1"]], line: "Quilted leather ballet flat with a cap toe and bendable sole." },
 ];
 
 const HIGHLIGHTS: Record<CatSlug, string[]> = {
@@ -204,6 +204,7 @@ const SIZE_RUNS: Record<G, string[]> = {
 const FIRST = ["Aarav", "Vivaan", "Aditya", "Ishaan", "Kabir", "Rohan", "Arjun", "Ananya", "Diya", "Saanvi", "Meera", "Priya", "Zara", "Riya", "Nisha", "Imran", "Farhan", "Sana", "Kavya", "Neha", "Rahul", "Siddharth", "Tanvi", "Aisha"];
 const LAST = ["Sharma", "Verma", "Singh", "Khan", "Iyer", "Patel", "Gupta", "Reddy", "Nair", "Das", "Kapoor", "Mehta", "Ansari", "Joshi", "Rao", "Sinha"];
 const CITIES = [
+  ["Gaya", "Bihar", "823001"],
   ["Patna", "Bihar", "800001"],
   ["Mumbai", "Maharashtra", "400050"],
   ["Bengaluru", "Karnataka", "560038"],
@@ -221,12 +222,12 @@ const REVIEW_BODIES = [
   "Wore them straight out of the box for a full day of walking and zero break-in needed. The cushioning is fantastic.",
   "The quality of the materials is much better than I expected. Packaging was premium too — felt like a proper unboxing.",
   "Ordered my usual size and the fit is spot on. Colour is exactly like the photos, maybe even better in daylight.",
-  "Delivered to Patna in two days. Checked authenticity, everything legit. Will definitely shop here again.",
+  "Delivered in just two days. Checked authenticity, everything legit. Will definitely shop here again.",
   "These have become my go-to pair for college and weekends. Comfortable, stylish and easy to clean.",
   "I was unsure about ordering shoes online but the size guide was accurate and the exchange policy gave me confidence.",
   "Got so many compliments at a wedding. Comfortable enough to dance all night, which says a lot.",
   "Lightweight and breathable — perfect for Indian summers. The grip is great on wet roads too.",
-  "Second pair I've bought from Soles in Motion. Customer support helped me pick the right size over WhatsApp.",
+  "Second pair I've bought from Waquar Footwear. Customer support helped me pick the right size over WhatsApp.",
   "Slightly snug for the first couple of days, then they moulded perfectly. Solid build quality.",
 ];
 
@@ -293,7 +294,7 @@ async function main() {
       name: c.name,
       slug: c.slug,
       tagline: c.tagline,
-      description: `${c.tagline}. Discover our curated edit of ${c.name.toLowerCase()} from the world's best labels and our own Soles Studio.`,
+      description: `${c.tagline}. Discover our curated edit of ${c.name.toLowerCase()} from the world's best labels and our own Waquar Studio.`,
       image: media.get(`cat:${c.slug}`),
       order: i,
       featured: true,
@@ -316,7 +317,7 @@ async function main() {
         brand: p.brand,
         category: catId.get(p.cat),
         gender: p.g,
-        description: `${p.line}\n\nEvery pair ships in original packaging with a Soles in Motion authenticity card. Not the right fit? Exchanges and returns are free within 30 days.`,
+        description: `${p.line}\n\nEvery pair ships in original packaging with a Waquar Footwear authenticity card. Not the right fit? Exchanges and returns are free within 30 days.`,
         highlights: HIGHLIGHTS[p.cat],
         price: p.price,
         compareAtPrice: p.was ?? null,
@@ -337,7 +338,7 @@ async function main() {
 
   // ── users ──
   console.log("→ Creating users…");
-  const adminEmail = (process.env.ADMIN_EMAIL || "admin@solesinmotion.in").toLowerCase();
+  const adminEmail = (process.env.ADMIN_EMAIL || "admin@waquarfootwear.in").toLowerCase();
   const adminPassword = process.env.ADMIN_PASSWORD;
   if (!adminPassword) throw new Error("ADMIN_PASSWORD must be set in .env.local");
   await User.findOneAndUpdate(
@@ -347,7 +348,7 @@ async function main() {
   );
   const customerHash = await bcrypt.hash("Demo@12345", 10);
   const customers = await User.insertMany([
-    { name: "Demo Customer", email: "demo@solesinmotion.in", passwordHash: customerHash, role: "customer", phone: "+91 90000 00000", createdAt: new Date(now - 80 * day) },
+    { name: "Demo Customer", email: "demo@waquarfootwear.in", passwordHash: customerHash, role: "customer", phone: "+91 90000 00000", createdAt: new Date(now - 80 * day) },
     ...Array.from({ length: 22 }, (_, i) => {
       const name = `${FIRST[i % FIRST.length]} ${pick(LAST)}`;
       return {
@@ -431,7 +432,7 @@ async function main() {
     const reached = status === "cancelled" ? ["pending", "cancelled"] : flow.slice(0, flow.indexOf(status) + 1);
     const paymentMethod = pick(["cod", "cod", "upi", "card"]);
     orders.push({
-      orderNumber: `SIM-${String(createdAt.getFullYear()).slice(2)}${String(createdAt.getMonth() + 1).padStart(2, "0")}${String(createdAt.getDate()).padStart(2, "0")}-${(0x100000 + i * 7919).toString(16).toUpperCase().slice(-6)}`,
+      orderNumber: `WF-${String(createdAt.getFullYear()).slice(2)}${String(createdAt.getMonth() + 1).padStart(2, "0")}${String(createdAt.getDate()).padStart(2, "0")}-${(0x100000 + i * 7919).toString(16).toUpperCase().slice(-6)}`,
       user: cust?._id ?? null,
       email: cust?.email ?? `guest${i}@example.com`,
       customer: { name: cust?.name ?? `${pick(FIRST)} ${pick(LAST)}`, phone: `+91 9${between(100000000, 999999999)}` },
@@ -452,16 +453,16 @@ async function main() {
 
   // ── banners, messages, subscribers ──
   await Banner.insertMany([
-    { placement: "hero", order: 0, eyebrow: "SS26 — The Motion Collection", title: "Move like the city never sleeps", subtitle: "New-season sneakers engineered for every step between sunrise and last metro.", ctaLabel: "Shop new arrivals", ctaHref: "/shop?tag=new", media: media.get("hero:1") },
+    { placement: "hero", order: 0, eyebrow: "SS26 — The New Season Edit", title: "Move like the city never sleeps", subtitle: "New-season sneakers engineered for every step between sunrise and last metro.", ctaLabel: "Shop new arrivals", ctaHref: "/shop?tag=new", media: media.get("hero:1") },
     { placement: "hero", order: 1, eyebrow: "Run Club", title: "Every mile tells a story", subtitle: "Lightweight knits and responsive foams for tempo runs, long runs and everything between.", ctaLabel: "Shop running", ctaHref: "/shop?category=running", media: media.get("hero:2") },
     { placement: "hero", order: 2, eyebrow: "Court Ready", title: "Own the hardwood", subtitle: "Zoom-cushioned performance for players who live above the rim.", ctaLabel: "Shop basketball", ctaHref: "/shop?category=basketball", media: media.get("hero:3") },
     { placement: "hero", order: 3, eyebrow: "The Heels Edit", title: "Step into the spotlight", subtitle: "Stilettos, pumps and strappy sandals made for every entrance — and every exit.", ctaLabel: "Shop heels", ctaHref: "/shop?category=heels", media: media.get("hero:4") },
     { placement: "promo", order: 0, eyebrow: "Lace up. Break out.", title: "Built for the ones who keep moving", subtitle: "Up to 25% off selected running & training styles this week.", ctaLabel: "Shop the sale", ctaHref: "/shop?tag=sale", media: media.get("promo:1") },
-    { placement: "promo", order: 1, eyebrow: "Flagship store", title: "Come try them on", subtitle: "14 Fraser Road, Patna — open daily, 11am to 9pm. Free foot scanning & fitting.", ctaLabel: "Plan your visit", ctaHref: "/contact", media: media.get("promo:2") },
+    { placement: "promo", order: 1, eyebrow: "Visit our store", title: "Come try them on", subtitle: "Main Road, Kathokar Talab, Gaya. Walk in, try on, and find your fit.", ctaLabel: "Get directions", ctaHref: "/contact#map", media: media.get("promo:2") },
   ]);
   await Message.insertMany([
-    { name: "Ritika Sinha", email: "ritika.s@example.com", subject: "Size exchange", message: "Hi! I ordered the Air Max 1 in UK 6 but need a UK 5. Can I exchange it at the Patna store?", createdAt: new Date(now - 2 * day) },
-    { name: "Mohd. Faizan", email: "faizan@example.com", subject: "Bulk order for our running club", message: "We are a 30-member running club in Patna. Do you offer group discounts on the Phantom Glide Runner?", createdAt: new Date(now - 4 * day), read: true },
+    { name: "Ritika Sinha", email: "ritika.s@example.com", subject: "Size exchange", message: "Hi! I ordered the Air Max 1 in UK 6 but need a UK 5. Can I exchange it at the Gaya store?", createdAt: new Date(now - 2 * day) },
+    { name: "Mohd. Faizan", email: "faizan@example.com", subject: "Bulk order for our running club", message: "We are a 30-member running club in Gaya. Do you offer group discounts on the Phantom Glide Runner?", createdAt: new Date(now - 4 * day), read: true },
     { name: "Ankita Rao", email: "ankita.rao@example.com", subject: "Restock alert", message: "When will the Noir Pointed Stiletto be back in UK 4? Would love a notification.", createdAt: new Date(now - 6 * day) },
     { name: "Karan Mehta", email: "karan.m@example.com", subject: "Collaboration", message: "I run a sneaker content page (40K followers). Would love to discuss a collaboration for your SS26 drop.", createdAt: new Date(now - 9 * day), read: true },
   ]);
@@ -485,7 +486,7 @@ async function main() {
     `\n✓ Seeded ${cats.length} categories, ${productDocs.length} products, ${reviews.length} reviews, ${orders.length} orders, ${customers.length} customers, ${assets.length - orphans.length} media assets in ${((Date.now() - t0) / 1000).toFixed(1)}s`,
   );
   console.log(`  Admin login:    ${adminEmail}  (password from ADMIN_PASSWORD)`);
-  console.log(`  Demo customer:  demo@solesinmotion.in / Demo@12345`);
+  console.log(`  Demo customer:  demo@waquarfootwear.in / Demo@12345`);
 }
 
 main()

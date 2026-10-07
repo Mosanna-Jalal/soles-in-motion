@@ -21,6 +21,9 @@ export default function SettingsForm({ settings }: { settings: SettingsT }) {
     contactEmail: settings.contactEmail,
     contactPhone: settings.contactPhone,
     address: settings.address,
+    hours: settings.hours,
+    mapLat: String(settings.mapLat),
+    mapLng: String(settings.mapLng),
     instagram: settings.instagram ?? "",
     youtube: settings.youtube ?? "",
     x: settings.x ?? "",
@@ -35,7 +38,7 @@ export default function SettingsForm({ settings }: { settings: SettingsT }) {
         e.preventDefault();
         setBusy(true);
         try {
-          await api("/api/admin/settings", { method: "PUT", json: { ...f, shippingFee: Number(f.shippingFee), freeShippingThreshold: Number(f.freeShippingThreshold), taxRate: Number(f.taxRate) } });
+          await api("/api/admin/settings", { method: "PUT", json: { ...f, shippingFee: Number(f.shippingFee), freeShippingThreshold: Number(f.freeShippingThreshold), taxRate: Number(f.taxRate), mapLat: Number(f.mapLat), mapLng: Number(f.mapLng) } });
           toast.success("Settings saved");
           router.refresh();
         } catch (err) {
@@ -85,7 +88,26 @@ export default function SettingsForm({ settings }: { settings: SettingsT }) {
           <Field label="Store address" className="sm:col-span-2">
             <input value={f.address} onChange={set("address")} className="field" />
           </Field>
+          <Field label="Opening hours" className="sm:col-span-2">
+            <input value={f.hours} onChange={set("hours")} className="field" placeholder="Open daily · 11am – 9pm" />
+          </Field>
         </div>
+      </Card>
+      <Card title="Store location (map pin)">
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="Latitude">
+            <input type="number" step="any" required value={f.mapLat} onChange={set("mapLat")} className="field tabular-nums" />
+          </Field>
+          <Field label="Longitude">
+            <input type="number" step="any" required value={f.mapLng} onChange={set("mapLng")} className="field tabular-nums" />
+          </Field>
+        </div>
+        <p className="mt-4 text-sm text-mist">
+          To move the pin: right-click the shop on Google Maps, click the coordinates to copy them, and paste the two numbers here.{" "}
+          <a href={`https://www.google.com/maps/search/?api=1&query=${f.mapLat},${f.mapLng}`} target="_blank" rel="noreferrer" className="text-volt underline underline-offset-4">
+            Check current pin
+          </a>
+        </p>
       </Card>
       <Card title="Social links">
         <div className="grid gap-4">

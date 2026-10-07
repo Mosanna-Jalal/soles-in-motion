@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Third-party bundle copied by scripts/copy-map-worker.mjs
+    "public/vendor/**",
   ]),
 ]);
 

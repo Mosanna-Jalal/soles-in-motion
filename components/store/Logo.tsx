@@ -16,7 +16,7 @@ export default function Logo({ className, compact = false }: { className?: strin
       <LogoMark className="h-8 w-8 transition-transform duration-500 group-hover:-rotate-12" />
       {!compact && (
         <span className="display text-[1.35rem] leading-none tracking-wide">
-          Soles<span className="text-volt">/</span>in Motion
+          Waquar<span className="text-volt">/</span>Footwear
         </span>
       )}
     </span>

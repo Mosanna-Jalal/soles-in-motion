@@ -10,12 +10,12 @@ import Values from "@/components/home/Values";
 import Testimonials from "@/components/home/Testimonials";
 import Flagship from "@/components/home/Flagship";
 import JoinCTA from "@/components/home/JoinCTA";
-import { getBrands, getHomeData, getStoreStats } from "@/lib/data";
+import { getBrands, getHomeData, getSettings, getStoreStats } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
-  const [data, brands, stats] = await Promise.all([getHomeData(), getBrands(), getStoreStats()]);
+  const [data, brands, stats, settings] = await Promise.all([getHomeData(), getBrands(), getStoreStats(), getSettings()]);
 
   return (
     <>
@@ -29,7 +29,7 @@ export default async function HomePage() {
       <Carousel products={data.bestsellers} eyebrow="Most wanted" title="Bestsellers" />
       <Values customers={stats.customers} products={stats.products} />
       <Testimonials reviews={data.testimonials} />
-      <Flagship banner={data.promo.find((b) => b.media?.resourceType === "image")} />
+      <Flagship banner={data.promo.find((b) => b.media?.resourceType === "image")} store={settings} />
       <JoinCTA />
     </>
   );

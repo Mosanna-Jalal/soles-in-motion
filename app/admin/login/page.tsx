@@ -21,7 +21,7 @@ export default async function AdminLoginPage(props: PageProps<"/admin/login">) {
         <div className="mb-8 flex items-center gap-3">
           <Logo compact />
           <div>
-            <p className="display text-2xl leading-none">Soles/in Motion</p>
+            <p className="display text-2xl leading-none">Waquar/Footwear</p>
             <p className="font-mono text-[10px] uppercase tracking-widest text-volt">Admin panel</p>
           </div>
         </div>

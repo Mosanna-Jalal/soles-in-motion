@@ -67,7 +67,7 @@ export default function Hero({ banners }: { banners: BannerT[] }) {
   const current = banners[index];
 
   return (
-    <section ref={section} className="relative h-[100svh] min-h-[640px] bg-ink">
+    <section ref={section} className="relative min-h-[max(100svh,640px)] bg-ink">
       <motion.div className="absolute inset-0 overflow-hidden" style={{ borderBottomLeftRadius: radius, borderBottomRightRadius: radius }}>
         <motion.div className="absolute inset-0" style={{ scale }}>
           {banners.map((b, i) => (
@@ -87,7 +87,7 @@ export default function Hero({ banners }: { banners: BannerT[] }) {
         <div className="grain absolute inset-0" />
       </motion.div>
 
-      <motion.div style={{ y: contentY, opacity: fade }} className="container-x relative flex h-full flex-col justify-end pb-24 pt-32 sm:pb-28">
+      <motion.div style={{ y: contentY, opacity: fade }} className="container-x relative flex min-h-[max(100svh,640px)] flex-col justify-end pb-24 pt-36 sm:pb-28">
         <AnimatePresence mode="wait">
           <motion.div key={current._id} exit={{ opacity: 0, y: -30, transition: { duration: 0.4 } }} className="max-w-5xl">
             {current.eyebrow && (
@@ -105,7 +105,7 @@ export default function Hero({ banners }: { banners: BannerT[] }) {
               trigger="mount"
               delay={0.15}
               text={current.title}
-              className="display block text-[15vw] sm:text-[11vw] lg:text-[8.6vw]"
+              className="display block text-[min(15vw,13svh)] sm:text-[min(11vw,13svh)] lg:text-[min(8.6vw,13svh)]"
             />
             {current.subtitle && (
               <motion.p

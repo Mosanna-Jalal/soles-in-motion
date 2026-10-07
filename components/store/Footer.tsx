@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Newsletter from "./Newsletter";
 import Socials from "./Socials";
+import { mapLinks } from "@/lib/maps";
 import type { CategoryT, SettingsT } from "@/lib/types";
 
-const WORD = "SOLES IN MOTION".split("");
+const WORD = "WAQUAR FOOTWEAR".split("");
 
 export default function Footer({ settings, categories }: { settings: SettingsT; categories: CategoryT[] }) {
   const cols = [
@@ -41,7 +42,7 @@ export default function Footer({ settings, categories }: { settings: SettingsT; 
     <footer className="relative mt-24 overflow-hidden border-t border-line bg-ink">
       <div className="container-x grid gap-14 py-16 lg:grid-cols-[1.2fr_2fr] lg:py-24">
         <div>
-          <p className="eyebrow text-volt">The Motion List</p>
+          <p className="eyebrow text-volt">The Waquar List</p>
           <h3 className="display mt-4 text-5xl sm:text-6xl">
             Early drops.
             <br />
@@ -73,7 +74,11 @@ export default function Footer({ settings, categories }: { settings: SettingsT; 
           <div className="col-span-2 sm:col-span-1">
             <p className="eyebrow mb-4 text-mist">Visit</p>
             <address className="space-y-2.5 text-sm not-italic text-bone/80">
-              <p>{settings.address}</p>
+              <p>
+                <a href={mapLinks(settings.mapLat, settings.mapLng).open} target="_blank" rel="noreferrer" className="hover:text-volt">
+                  {settings.address}
+                </a>
+              </p>
               <p>
                 <a href={`tel:${settings.contactPhone.replace(/\s/g, "")}`} className="hover:text-volt">
                   {settings.contactPhone}
@@ -84,7 +89,7 @@ export default function Footer({ settings, categories }: { settings: SettingsT; 
                   {settings.contactEmail}
                 </a>
               </p>
-              <p className="text-mist">Mon–Sun · 11am–9pm</p>
+              <p className="text-mist">{settings.hours}</p>
             </address>
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function TrackForm({ defaultOrder = "", className }: { defaultOrd
     >
       <label>
         <span className="label">Order number</span>
-        <input required value={orderNumber} onChange={(e) => setOrderNumber(e.target.value.toUpperCase())} placeholder="SIM-260927-A1B2C3" className="field font-mono" />
+        <input required value={orderNumber} onChange={(e) => setOrderNumber(e.target.value.toUpperCase())} placeholder="WF-261007-A1B2C3" className="field font-mono" />
       </label>
       <label>
         <span className="label">Email used at checkout</span>

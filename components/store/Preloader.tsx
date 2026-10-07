@@ -3,7 +3,7 @@
 import { AnimatePresence, animate, motion } from "motion/react";
 import { useEffect, useState } from "react";
 
-const WORD = "SOLES IN MOTION".split("");
+const WORD = "WAQUAR FOOTWEAR".split("");
 
 /** First-visit intro: a counter races to 100 while the wordmark assembles, then the curtain lifts. */
 export default function Preloader() {
@@ -45,15 +45,15 @@ export default function Preloader() {
           transition={{ duration: quick ? 0.2 : 1, ease: [0.76, 0, 0.24, 1] }}
         >
           <div className="flex items-center justify-between font-mono text-xs uppercase tracking-[0.2em] text-mist">
-            <span>Est. 2019 — Patna</span>
-            <span>SS26 Collection</span>
+            <span>Main Road · Kathokar Talab</span>
+            <span>Gaya, Bihar</span>
           </div>
           <div className="overflow-hidden">
             <div className="display flex flex-wrap text-[13vw] leading-[0.85] sm:text-[11vw]">
               {WORD.map((ch, i) => (
                 <motion.span
                   key={i}
-                  className={ch === " " ? "w-[0.3em]" : i > 8 ? "text-volt" : ""}
+                  className={ch === " " ? "w-[0.3em]" : i > 6 ? "text-volt" : ""}
                   initial={{ y: "110%" }}
                   animate={{ y: "0%" }}
                   transition={{ duration: 0.9, delay: 0.1 + i * 0.04, ease: [0.16, 1, 0.3, 1] }}

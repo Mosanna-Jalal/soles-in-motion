@@ -3,7 +3,7 @@ import AdminShell from "@/components/admin/AdminShell";
 import { requireAdminPage } from "@/lib/auth";
 import { getAdminBadges } from "@/lib/admin-data";
 
-export const metadata: Metadata = { title: { default: "Admin", template: "%s · Admin · Soles in Motion" }, robots: { index: false } };
+export const metadata: Metadata = { title: { default: "Admin", template: "%s · Admin · Waquar Footwear" }, robots: { index: false } };
 export const dynamic = "force-dynamic";
 
 export default async function AdminLayout({ children }: LayoutProps<"/admin">) {

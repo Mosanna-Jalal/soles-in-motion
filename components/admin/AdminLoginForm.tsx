@@ -37,7 +37,7 @@ export default function AdminLoginForm({ next }: { next: string }) {
     >
       <label className="relative block">
         <Mail className="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-mist" />
-        <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="admin@solesinmotion.in" className="field pl-11" autoComplete="username" aria-label="Email" />
+        <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="admin@waquarfootwear.in" className="field pl-11" autoComplete="username" aria-label="Email" />
       </label>
       <label className="relative block">
         <Lock className="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-mist" />

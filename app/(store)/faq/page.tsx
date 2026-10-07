@@ -3,7 +3,7 @@ import Link from "next/link";
 import FaqList from "@/components/store/FaqList";
 import { SplitText } from "@/components/motion/primitives";
 
-export const metadata: Metadata = { title: "Help & FAQ", description: "Shipping, returns, sizing and payments at Soles in Motion." };
+export const metadata: Metadata = { title: "Help & FAQ", description: "Shipping, returns, sizing and payments at Waquar Footwear." };
 
 const SECTIONS = [
   {
@@ -38,7 +38,7 @@ const SECTIONS = [
     title: "Orders & payments",
     items: [
       ["Which payment methods do you accept?", "UPI, all major debit/credit cards (Visa, Mastercard, RuPay) and cash on delivery."],
-      ["Are your products authentic?", "100%. We source directly from brands and authorised distributors. Every pair ships with a Soles in Motion authenticity card."],
+      ["Are your products authentic?", "100%. We source directly from brands and authorised distributors. Every pair comes with a Waquar Footwear authenticity card."],
       ["How can I track my order?", "Use the tracking page with your order number and email, or sign in to your account to see all your orders."],
     ],
   },

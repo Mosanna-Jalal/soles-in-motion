@@ -154,6 +154,9 @@ export interface SettingsT {
   contactEmail: string;
   contactPhone: string;
   address: string;
+  hours: string;
+  mapLat: number;
+  mapLng: number;
   instagram?: string;
   youtube?: string;
   x?: string;

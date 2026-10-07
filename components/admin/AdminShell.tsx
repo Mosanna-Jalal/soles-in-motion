@@ -114,7 +114,7 @@ export default function AdminShell({ children, admin, badges }: { children: Reac
       <Link href="/admin" className="group mb-8 flex items-center gap-2 px-3">
         <Logo compact />
         <div>
-          <p className="display text-lg leading-none">Soles/in Motion</p>
+          <p className="display text-lg leading-none">Waquar/Footwear</p>
           <p className="font-mono text-[10px] uppercase tracking-widest text-volt">Admin</p>
         </div>
       </Link>

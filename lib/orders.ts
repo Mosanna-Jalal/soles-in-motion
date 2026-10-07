@@ -12,7 +12,7 @@ import type { SessionUser } from "./types";
 export function generateOrderNumber() {
   const d = new Date();
   const ymd = `${String(d.getFullYear()).slice(2)}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}`;
-  return `SIM-${ymd}-${randomBytes(3).toString("hex").toUpperCase()}`;
+  return `WF-${ymd}-${randomBytes(3).toString("hex").toUpperCase()}`;
 }
 
 export async function validateCoupon(code: string, subtotal: number) {

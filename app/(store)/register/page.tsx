@@ -13,7 +13,7 @@ export default async function RegisterPage(props: PageProps<"/register">) {
   if (await getSession()) redirect("/account");
   const cats = await getCategories();
   return (
-    <AuthShell title="Join the motion" subtitle="Members get early drops, faster checkout and 10% off their first pair with WELCOME10." image={cats.find((c) => c.slug === "sneakers")?.image?.url}>
+    <AuthShell title="Join Waquar" subtitle="Members get early drops, faster checkout and 10% off their first pair with WELCOME10." image={cats.find((c) => c.slug === "sneakers")?.image?.url}>
       <AuthForm mode="register" next={next} />
     </AuthShell>
   );

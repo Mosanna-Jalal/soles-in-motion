@@ -10,7 +10,9 @@ export const getSettings = cache(async (): Promise<SettingsT> => {
   const doc =
     (await Setting.findOne({ key: "store" }).lean()) ??
     (await Setting.findOneAndUpdate({ key: "store" }, { $setOnInsert: { key: "store" } }, { upsert: true, new: true }).lean());
-  return serialize(doc);
+  // .lean() skips schema defaults, so fields added after the doc was created fall back here.
+  const defaults = new Setting({ key: "store" }).toObject();
+  return serialize({ ...defaults, ...doc });
 });
 
 export const getCategories = cache(async (): Promise<CategoryT[]> => {

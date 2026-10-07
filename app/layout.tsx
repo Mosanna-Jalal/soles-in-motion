@@ -10,14 +10,14 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains", 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: {
-    default: "Soles in Motion — Sneakers, Running & Designer Footwear",
-    template: "%s · Soles in Motion",
+    default: "Waquar Footwear — Shoes, Sneakers & Sandals in Gaya",
+    template: "%s · Waquar Footwear",
   },
   description:
-    "Soles in Motion is India's home for iconic sneakers, performance running shoes, boots, heels and handcrafted formals. Free shipping over ₹2,999 and 30-day returns.",
+    "Waquar Footwear, Main Road, Kathokar Talab, Gaya — sneakers, running shoes, boots, formals, heels and sandals. Shop online with cash on delivery, or visit the store.",
   openGraph: {
     type: "website",
-    siteName: "Soles in Motion",
+    siteName: "Waquar Footwear",
     locale: "en_IN",
   },
 };

@@ -24,7 +24,7 @@ export async function generateMetadata(props: PageProps<"/shop">): Promise<Metad
   const cats = await getCategories();
   const cat = cats.find((c) => c.slug === p.category);
   const title = cat?.name ?? (p.q ? `Search: ${p.q}` : p.tag === "sale" ? "Sale" : p.tag === "new" ? "New arrivals" : "Shop all footwear");
-  return { title, description: cat?.description ?? "Shop sneakers, running shoes, boots, heels and formals at Soles in Motion." };
+  return { title, description: cat?.description ?? "Shop sneakers, running shoes, boots, heels and formals at Waquar Footwear, Gaya." };
 }
 
 export default async function ShopPage(props: PageProps<"/shop">) {

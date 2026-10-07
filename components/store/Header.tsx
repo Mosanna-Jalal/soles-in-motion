@@ -93,7 +93,7 @@ export default function Header({
       <div
         className={cn(
           "border-b transition-[background-color,border-color,backdrop-filter] duration-500",
-          overHero ? "border-transparent bg-transparent" : "border-line/60 bg-ink/80 backdrop-blur-xl",
+          overHero ? "border-transparent bg-gradient-to-b from-ink/70 to-transparent" : "border-line/60 bg-ink/80 backdrop-blur-xl",
         )}
       >
         <div className="container-x flex h-16 items-center justify-between gap-6 lg:h-[72px]">
@@ -105,7 +105,7 @@ export default function Header({
             >
               <Menu className="h-5 w-5" />
             </button>
-            <Link href="/" className="group" aria-label="Soles in Motion — home">
+            <Link href="/" className="group" aria-label="Waquar Footwear — home">
               <span className="hidden sm:block">
                 <Logo />
               </span>

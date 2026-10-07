@@ -1,6 +1,8 @@
-# Soles in Motion
+# Waquar Footwear
 
-A full e-commerce storefront and admin panel for a footwear shop. It runs on Next.js 16 (App Router), MongoDB and Cloudinary.
+Online store and admin panel for **Waquar Footwear**, Main Road, Kathokar Talab, Gaya, Bihar 823001. It runs on Next.js 16 (App Router), MongoDB and Cloudinary.
+
+> The repository, database (`soles-in-motion`) and Cloudinary folder keep the project's original working name. Renaming them would disconnect existing data and media, and customers never see them.
 
 ## Features
 
@@ -10,6 +12,7 @@ A full e-commerce storefront and admin panel for a footwear shop. It runs on Nex
 - Product pages with a zoomable gallery and product video, size and stock logic, delivery estimates, reviews and related products.
 - Cart drawer and cart page with live price/stock sync and coupons. Checkout supports COD and demo UPI/card payments.
 - Order confirmation with a status timeline, order tracking by number and email, customer accounts, wishlist, and About, Contact and FAQ pages.
+- **Store map**: an interactive map (MapLibre + free OpenFreeMap/OpenStreetMap tiles, no API key) on the Contact page and home page, with a pin at Kathokar Talab and Google Maps directions links. The pin, address and opening hours are edited in *Admin → Settings*.
 - Smooth scrolling (Lenis), a custom cursor, page-transition curtains, split-text reveals, magnetic buttons and 3D tilt cards. All motion respects `prefers-reduced-motion`.
 
 **Admin (`/admin`)**
@@ -56,16 +59,22 @@ npm install
    ```
    - Store: http://localhost:3000
    - Admin: http://localhost:3000/admin, signed in with `ADMIN_EMAIL` / `ADMIN_PASSWORD` from `.env.local`
-   - Demo customer: `demo@solesinmotion.in` / `Demo@12345`
+   - Demo customer: `demo@waquarfootwear.in` / `Demo@12345`
    - Coupons: `WELCOME10`, `SOLE500` (orders ≥ ₹4,999), `MOTION20` (orders ≥ ₹9,999)
 
 Other scripts: `npm run build`, `npm run start`, `npm run lint`, `npm run typecheck`.
+
+`npm install` also runs a `postinstall` step that copies MapLibre's web worker into `public/vendor/` (git-ignored), so the map loads it from the site itself.
+
+`scripts/migrate-rebrand.ts` is the one-off migration that renamed existing data from the old working name. It has already been applied and is safe to re-run.
 
 ## Before going live
 
 - **Payments:** UPI and card are simulated (the order is marked as paid). Integrate a gateway such as Razorpay in `lib/orders.ts` / `app/api/orders` before launch.
 - **Emails:** order confirmations and contact replies are not emailed. Add a provider (e.g. Resend) if needed.
 - **Secrets:** use a new `JWT_SECRET` and `ADMIN_PASSWORD` in production. The Cloudinary secret was shared in plain text during setup, so consider rotating it.
+- **Store details:** the phone number, email (`hello@waquarfootwear.in`) and opening hours are placeholders. Set the real ones in *Admin → Settings*, and fine-tune the map pin there if needed.
+- **Demo data:** the seeded reviews, orders, customers and inbox messages are samples. Clear them before launch so they aren't shown as real.
 - **Site URL:** set `NEXT_PUBLIC_SITE_URL` to your domain; it is used by the sitemap, robots.txt and Open Graph tags.
 - **Deploying:** on Vercel, add the variables from `.env.example`.
 
@@ -92,4 +101,4 @@ proxy.ts            route protection (Next 16's replacement for middleware)
 scripts/seed.ts     demo data + Cloudinary media
 ```
 
-Media credits: photos from [Unsplash](https://unsplash.com) (Unsplash License) and videos from [Mixkit](https://mixkit.co) (Mixkit License).
+Media credits: photos from [Unsplash](https://unsplash.com) (Unsplash License) and videos from [Mixkit](https://mixkit.co) (Mixkit License). Map data © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, tiles by [OpenFreeMap](https://openfreemap.org).

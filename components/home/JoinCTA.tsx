@@ -7,7 +7,7 @@ export default function JoinCTA() {
       <Marquee duration={25} className="pointer-events-none absolute inset-x-0 top-1/2 -translate-y-1/2 opacity-[0.07]">
         {Array.from({ length: 3 }).map((_, i) => (
           <span key={i} className="display px-6 text-[22vw] leading-none">
-            Join the motion ·
+            Waquar Footwear ·
           </span>
         ))}
       </Marquee>
